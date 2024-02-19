@@ -1,0 +1,126 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    background-color: yellow;
+    margin: 0%;
+}
+
+.grid{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.roxa{
+    background: #514988;
+    margin-top: auto;
+    
+    
+}
+
+.ti{
+    text-align: center;
+    color: #F3C61F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.p2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: normal;
+}
+.p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    text-align: center;
+    font-weight: 400;
+}
+.p4{
+    color: #F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.img{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+#botao{
+   background-color: #514988;
+   border-radius: 20px;
+   border: 0;
+   width: 596px;
+   height: 148px;
+   color: aliceblue;
+   font-size: 42px;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   flex-shrink: 0;
+}
+.botao{
+    align-content: center;
+    margin: auto;
+   
+}
+.timer{
+    color: #514988;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: grid;
+    grid-auto-flow: column;
+    width: 800px;
+}
+.cx{
+    color: #E33881;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: auto;
+}
+.aler{
+    margin: auto;
+    width: max-content;
+
+
+
+}
+.card-highlight{
+    box-shadow: 10px 10px 10px 10px gray;
+
+}
+.card-selected{
+    border: 5px solid green;
+}
+button{
+    align-content: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    width: 596px;
+    height: 148px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #514988;
+    
+}
+
+

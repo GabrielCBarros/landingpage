@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <img src="titu.svg" alt="">
+</header>
+<section>
+    <div id="grande1" class="grid">
+        <div class="roxa">
+            <div>
+                <h1 class="ti">REVIVA O EPICO</h1>
+                <h2 class="p2">De 01 a 04 de dezembro</h2>
+            </div>
+            <div class="p3">
+                <p>Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.</p>
+            </div>
+        </div>
+        <div>
+            <div class="timer">
+                <div>
+                    <h1 id="dia">00</h1>
+                </div>
+                <div>
+                    <h1 id="hora">00</h1>
+                </div>
+                <div>
+                    <h1 id="minuto">00</h1>
+                </div>
+                <div>
+                    <h1 id="segundo">00</h1>
+                </div>
+            </div>
+            <div class="cx">PARA A MAIOR CCXP DE TODOS OS TEMPOS</div>
+            <div class="aler">
+                <video width="700px" controls loop><source src="Arlequina.mp4" type="video/mp4"></video>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+
+    <div class="grid">
+        <div>
+            <div class="p4">
+                <p>
+                    Ainda da tempo de garantir o seu. Mas corre!!!
+                </p>
+
+            </div>
+            <div class="img">
+                <div><img  src="qui.svg" class="cards-ingressos" onclick="selectcard('#quinta')" onmouseover="highlightcard('#quinta')" onmouseout="highlightcard('#quinta')"  id="quinta" alt=""></div>
+                <div><img src="sex.svg" class="cards-ingressos" onclick="selectcard('#sexta')" onmouseover="highlightcard('#sexta')" onmouseout="highlightcard('#sexta')"  id="sexta" alt=""></div>
+                <div><img src="sab.svg" class="cards-ingressos" onclick="selectcard('#sabado')" onmouseover="highlightcard('#sabado')" onmouseout="highlightcard('#sabado')"  id="sabado" alt=""></div>
+                <div><img src="dom.svg" class="cards-ingressos" onclick="selectcard('#domingo')" onmouseover="highlightcard('#domingo')" onmouseout="highlightcard('#domingo')"  id="domingo" alt=""></div>
+            </div>
+        </div>
+        <div id="compra" class="botao">
+            <button onclick="showselectedcard()">Garanta ja o seu</button>
+        </div>
+    </div>
+
+</section>
+<div>
+    <form action="https://www.google.com">
+        <input type="email" placeholder="Seu email" required />
+        <input type="submit" />
+    </form>
+</div>
+<script src="script.js"></script>
+<script src="main.js"></script>
+    
+</body>
+</html>
